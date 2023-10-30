@@ -89,7 +89,7 @@ final class IOS7SiriWaveformController extends SiriWaveformController {
     super.speed,
     this.color = Colors.white,
     this.frequency = 6,
-  }) : assert(frequency >= -20 && frequency <= 20);
+  }) : assert(frequency >= -200 && frequency <= 200);
 
   /// The color of the waveform.
   ///
